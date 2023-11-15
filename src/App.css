@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+/* styling the text in <pre> tag */
+pre {
+  font-size: 7em;
+}
+/* styling the map by adding a color to every state of the country */
+.marks .land {
+  fill: pink;
+}
+/* defining the state borders */
+.marks {
+  fill: none;
+  stroke: white;
+}
+
+/* .interiors {
+  stroke: red;
+} */
+/* using 'hover' to highlight the state when the pointer is placed on it*/
+.land:hover {
+  fill: #f5b041;
+}
